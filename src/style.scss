@@ -1,0 +1,29 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import "../src/components/sass/colors";
+@import "../src/components/sass/typography";
+@import "../src/components/sass/layout";
+@import "../src/components/header/header";
+@import "../src/components/main/main";
+@import "../src/components/buttonTop/buttonTop";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $primary-background;
+
+    scroll-behavior: smooth;
+
+}
+svg, img{
+    display: block;
+    width: 100%;
+}

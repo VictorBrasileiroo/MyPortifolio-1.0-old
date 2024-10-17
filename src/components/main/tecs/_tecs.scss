@@ -1,0 +1,128 @@
+.container-tecs{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 90%;
+        background-color: $gray-1;
+        border-radius: 1rem;
+        padding: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+
+        @include responsive (s){
+            width: 100%;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .text-area{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            @include responsive (s){
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+            }
+
+
+            div{
+                display: flex;
+                gap: 16px;
+                flex-direction: column;
+
+                p{
+                    color: $white-dark;
+                    font-family: Inter;
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    text-align: justify;
+                    width: 90%;
+
+                    @include responsive (s){
+                        display: none;
+                    }
+                }
+
+                h5{
+                    @include responsive (s){
+                        display: none;
+                    }
+                }
+            }
+            h2{
+                color: $white-normal;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-weight: 900;
+                text-transform: uppercase;
+
+                @include responsive (s){
+                    font-size: 22px;
+                }
+            }
+
+            
+            
+        }
+
+        .grid-area{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            @include responsive (s){
+                width: 100%;
+            }
+
+            .row{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                .card-tecs{
+                    width: 112px;
+                    height: 112px;
+                    cursor: pointer;
+
+                    @include responsive (s){
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 0.5rem;
+                    }
+
+                    background-color: rgb(33, 33, 33);
+                    border-radius: 1rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+
+                    img{
+                        width: 88px;
+                        height: 88px;
+                        @include responsive (s){
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

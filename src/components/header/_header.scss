@@ -1,0 +1,12 @@
+@import "./navbar/navbar";
+
+header{
+    position: fixed;
+    z-index: 991;
+    transition: .3s ease all;
+}
+
+.active_header{
+    background-color: #151415;
+    box-shadow: 0px 4px 20px 0px rgba(45, 44, 45, 0.08);
+}

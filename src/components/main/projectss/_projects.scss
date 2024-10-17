@@ -1,0 +1,133 @@
+.container-projects{
+    width: 100%;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+
+    h1{
+        color: $white-normal;
+                font-family: Montserrat;
+                font-size: 48px;
+                font-weight: 900;
+                text-transform: uppercase;
+    }
+
+    .container-proj{
+        width: 100%;
+        display: flex;
+
+        @include responsive(s){
+            flex-direction: column;
+        }
+
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px;
+        gap: 28px;
+
+
+        .image-area{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            @include responsive(s){
+                width: 100%;
+
+                img{
+                    display: none;
+                    width: 150%;
+                    height: 150%;
+                    cursor: zoom-in;
+                }
+            }
+        }  
+        
+        .text-area{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            padding: 24px;
+
+            @include responsive(s){
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                gap: 24px;
+
+                 h2{
+                    text-align: center;
+                 }
+
+                 p{
+                    font: 12px;
+                 }
+            }
+
+
+            h2{
+                color: $white-normal;
+                font-family: Montserrat;
+                font-size: 40px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+
+            p{
+                color: $white-normal;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            div{
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                @include responsive (s){
+                    flex-direction: column;
+                }
+                a{
+                    padding:12px 24px ;
+                    border-radius: 20px;
+                    background: $primary-normal;
+                    border: none;
+                    transition: .3s ease all;
+                    color: $white-normal;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 800;
+                    text-decoration: none;
+                    cursor: pointer;
+
+                    &:hover{
+                        transform: scale(1.1);
+                        background-color: $primary-dark;
+                    }
+                }
+
+                .tecs-projects{
+
+                    @include responsive (s){
+                        flex-direction: row;
+                    }
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 8px;
+
+                    .card-tec{
+                        width: 48px;
+                        height: 48px;
+                    }
+                }
+            }
+        }  
+    }
+}

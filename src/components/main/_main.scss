@@ -1,0 +1,19 @@
+@import "./hero/hero";
+@import "./aboutMe/aboutme";
+@import "./tecs/tecs";
+@import "./projectss/projects";
+
+.container-main{
+    width: 100%;
+    padding: 130px 80px;
+
+    @include responsive(s){
+        padding: 110px 40px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+}

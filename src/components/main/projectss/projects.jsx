@@ -50,8 +50,8 @@ export function Projects() {
                         <h2>Portifólio</h2>
                         <p>Esse Projeto é um portfólio pessoal e foi desenvolvido em React, utilizando Sass para uma estilização modular e eficiente, com o design previamente planejado no Figma. A estrutura do projeto é baseada nos principais pilares da web: HTML, CSS e JavaScript, garantindo uma interface moderna, responsiva e de fácil navegação, com foco na apresentação de habilidades e projetos de forma dinâmica e atraente.</p>
                         <div>
-                            <a>Demo</a>
-                            <a>Github</a>
+                            <a href="https://victorbrasileiroo.github.io/MyPortifolio/">Demo</a>
+                            <a href='https://github.com/VictorBrasileiroo/MyPortifolio/'>Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
                                     <img src={reactIcon} alt="React" />

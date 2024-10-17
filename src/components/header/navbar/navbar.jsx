@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import logo from "../../../assets/img/logo_vb.svg"
 
 export function Navbar() {
   useEffect(() => {
@@ -20,27 +21,25 @@ export function Navbar() {
   }, []);
 
   return (
-    <>
-      <header id="header" className="header_principal_container"> {/* Adicione o ID aqui */}
-        <div className="container-logo">
-          <img src="../../src/assets/img/LOGO VB 2.svg" alt="Logo" /> {/* Verifique o caminho da imagem */}
-          <div>
-            <span className="span">Victor</span>
-            <h4>Brasileiro</h4>
-          </div>
+    <header id="header" className="header_principal_container">
+      <div className="container-logo">
+        <img src={logo} alt="Logo" />
+        <div>
+          <span className="span">Victor</span>
+          <h4>Brasileiro</h4>
         </div>
-        <nav className="container-nav">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-          <div className="container-button">
-            <button>Ligar</button>
-          </div>
-        </nav>
-      </header>
-    </>
+      </div>
+      <nav className="container-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <div className="container-button">
+          <button>Ligar</button>
+        </div>
+      </nav>
+    </header>
   );
 }

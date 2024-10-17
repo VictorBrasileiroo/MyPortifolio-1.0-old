@@ -1,11 +1,25 @@
+import React from 'react';
+import group338 from '@/assets/img/Group 338.svg';
+import group339 from '@/assets/img/Group 339.svg';
+import group343 from '@/assets/img/Group 343.svg';
+import group344 from '@/assets/img/Group 344.svg';
+import javascriptIcon from '@/assets/img/icons8-javascript 1.svg';
+import htmlIcon from '@/assets/img/icons8-html 1.svg';
+import cssIcon from '@/assets/img/icons8-css 1.svg';
+import reactIcon from '@/assets/img/icons8-reagir 1.svg';
+import tailwindIcon from '@/assets/img/icons8-tailwind-css 1.svg';
+import atrevimentoIcon from '@/assets/img/icons8-atrevimento 1.svg';
+import groupIcon from '@/assets/img/Group.svg';
+
 export function Projects() {
     return (
         <>
             <section className="container-projects" id='projects'>
-                <h1 data-aos="fade-up" >Projetos em Destaque</h1>
+                <h1 data-aos="fade-up">Projetos em Destaque</h1>
+                
                 <div className="container-proj" data-aos="fade-up-right">
                     <div className="image-area">
-                        <img src="../src/assets/img/Group 338.svg" alt="" />
+                        <img src={group338} alt="Group 338" />
                     </div>
                     <div className="text-area">
                         <h2>BlueBank</h2>
@@ -15,16 +29,16 @@ export function Projects() {
                             <a href="https://github.com/VictorBrasileiroo/BlueBank">Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-javascript 1.svg" alt="" />
+                                    <img src={javascriptIcon} alt="JavaScript" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-html 1.svg" alt="" style={{ width: '40px', position: 'relative', left: '5px' }} />
+                                    <img src={htmlIcon} alt="HTML" style={{ width: '40px', position: 'relative', left: '5px' }} />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-css 1.svg" alt="" />
+                                    <img src={cssIcon} alt="CSS" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-atrevimento 1.svg" alt="" />
+                                    <img src={atrevimentoIcon} alt="Atrevimento" />
                                 </div>
                             </div>
                         </div>
@@ -40,28 +54,28 @@ export function Projects() {
                             <a>Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-reagir 1.svg" alt="" />
+                                    <img src={reactIcon} alt="React" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-css 1.svg" style={{ position: 'relative' }} alt="" />
+                                    <img src={cssIcon} style={{ position: 'relative' }} alt="CSS" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-atrevimento 1.svg" alt="" />
+                                    <img src={atrevimentoIcon} alt="Atrevimento" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/Group.svg" alt="" style={{ width: '25px', position: 'relative', left: '5px' }} />
+                                    <img src={groupIcon} alt="Group" style={{ width: '25px', position: 'relative', left: '5px' }} />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="image-area">
-                        <img src="../src/assets/img/Group 339.svg" alt="" />
+                        <img src={group339} alt="Group 339" />
                     </div>
                 </div>
 
                 <div className="container-proj" data-aos="fade-down-right">
                     <div className="image-area">
-                        <img src="../src/assets/img/Group 343.svg" alt="" />
+                        <img src={group343} alt="Group 343" />
                     </div>
                     <div className="text-area">
                         <h2>Weather Watch</h2>
@@ -71,13 +85,13 @@ export function Projects() {
                             <a href="https://github.com/VictorBrasileiroo/WeatherWatch/">Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-javascript 1.svg" alt="" />
+                                    <img src={javascriptIcon} alt="JavaScript" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-css 1.svg" alt="" />
+                                    <img src={cssIcon} alt="CSS" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-html 1.svg" alt="" style={{ width: '40px', position: 'relative', left: '2px' }} />
+                                    <img src={htmlIcon} alt="HTML" style={{ width: '40px', position: 'relative', left: '2px' }} />
                                 </div>
                             </div>
                         </div>
@@ -93,19 +107,19 @@ export function Projects() {
                             <a href="https://github.com/VictorBrasileiroo/LoginScreen/">Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-reagir 1.svg" alt="" />
+                                    <img src={reactIcon} alt="React" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/icons8-tailwind-css 1.svg" alt="" />
+                                    <img src={tailwindIcon} alt="Tailwind CSS" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src="../src/assets/img/Group.svg" alt="" style={{ width: '25px', position: 'relative', left: '5px' }} />
+                                    <img src={groupIcon} alt="Group" style={{ width: '25px', position: 'relative', left: '5px' }} />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="image-area">
-                        <img src="../src/assets/img/Group 344.svg" alt="" />
+                        <img src={group344} alt="Group 344" />
                     </div>
                 </div>
             </section>

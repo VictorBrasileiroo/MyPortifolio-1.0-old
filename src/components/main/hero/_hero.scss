@@ -181,13 +181,13 @@
     }
 }
 
-@keyframes change-bg-card{
-    0%,49%{
-        background-image: url("src/assets/img/Frame3.svg");
-        background-size: cover;
-    }50%,100%{
-        background-image: url("src/assets/img/Frame 5.svg");
+@keyframes change-bg-card {
+    0%, 49% {
+        background-image: url('/src/assets/img/Frame3.svg');
         background-size: cover;
     }
-
+    50%, 100% {
+        background-image: url('/src/assets/img/Frame5.svg');
+        background-size: cover;
+    }
 }

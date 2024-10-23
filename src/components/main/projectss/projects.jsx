@@ -100,31 +100,6 @@ export function Projects() {
                 </div>
 
                 <div className="container-proj" data-aos="fade-down-left">
-                    <div className="text-area">
-                        <h2>Login Screen</h2>
-                        <p>Este é um projeto de uma tela de login simples e responsiva desenvolvida usando React, Tailwind CSS, Vite e Shadcn. A aplicação foi criada com o objetivo de fornecer uma interface de login elegante e eficiente para autenticação de usuários.</p>
-                        <div>
-                            <a href="https://victorbrasileiroo.github.io/LoginScreen/">Demo</a>
-                            <a href="https://github.com/VictorBrasileiroo/LoginScreen/">Github</a>
-                            <div className="tecs-projects">
-                                <div className="card-tec">
-                                    <img src={reactIcon} alt="React" />
-                                </div>
-                                <div className="card-tec">
-                                    <img src={tailwindIcon} alt="Tailwind CSS" />
-                                </div>
-                                <div className="card-tec">
-                                    <img src={groupIcon} alt="Group" style={{ width: '25px', position: 'relative', left: '5px' }} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="image-area">
-                        <img src={group344} alt="Group 344" />
-                    </div>
-                </div>
-
-                <div className="container-proj" data-aos="fade-down-right">
                     <div className="image-area">
                         <img src={group343} alt="Group 343" />
                     </div>
@@ -146,6 +121,31 @@ export function Projects() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="container-proj" data-aos="fade-down-right">
+                    <div className="text-area">
+                        <h2>Login Screen</h2>
+                        <p>Este é um projeto de uma tela de login simples e responsiva desenvolvida usando React, Tailwind CSS, Vite e Shadcn. A aplicação foi criada com o objetivo de fornecer uma interface de login elegante e eficiente para autenticação de usuários.</p>
+                        <div>
+                            <a href="https://victorbrasileiroo.github.io/LoginScreen/">Demo</a>
+                            <a href="https://github.com/VictorBrasileiroo/LoginScreen/">Github</a>
+                            <div className="tecs-projects">
+                                <div className="card-tec">
+                                    <img src={reactIcon} alt="React" />
+                                </div>
+                                <div className="card-tec">
+                                    <img src={tailwindIcon} alt="Tailwind CSS" />
+                                </div>
+                                <div className="card-tec">
+                                    <img src={groupIcon} alt="Group" style={{ width: '25px', position: 'relative', left: '5px' }} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="image-area">
+                        <img src={group344} alt="Group 344" />
                     </div>
                 </div>
                 

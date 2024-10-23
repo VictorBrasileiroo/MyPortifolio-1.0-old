@@ -3,6 +3,7 @@ import group338 from '@/assets/img/Group 338.svg';
 import group339 from '@/assets/img/Group 339.svg';
 import group343 from '@/assets/img/Group 343.svg';
 import group344 from '@/assets/img/Group 344.svg';
+import group345 from '@/assets/img/Group 345.svg';
 import javascriptIcon from '@/assets/img/icons8-javascript 1.svg';
 import htmlIcon from '@/assets/img/icons8-html 1.svg';
 import cssIcon from '@/assets/img/icons8-css 1.svg';
@@ -75,20 +76,20 @@ export function Projects() {
 
                 <div className="container-proj" data-aos="fade-down-right">
                     <div className="image-area">
-                        <img src={group343} alt="Group 343" />
+                        <img src={group345} alt="Group 345" />
                     </div>
                     <div className="text-area">
-                        <h2>Weather Watch</h2>
-                        <p>Esta aplicação web permite a verificação das condições climáticas atuais. O projeto é um estudo focado em diversos conceitos e tecnologias, incluindo APIs, HTTP, requisições, promises, AJAX e Axios, entre outros. Desenvolvido exclusivamente para fins educativos, visa proporcionar uma compreensão prática e aplicada dessas ferramentas e técnicas.</p>
+                        <h2>FitFinder</h2>
+                        <p>FitFinder é uma aplicação web projetada para facilitar a busca por exercícios físicos. Através da integração com uma API de exercícios, ela oferece uma lista personalizada de atividades com base nos filtros selecionados pelo usuário, garantindo uma experiência de pesquisa eficiente e direcionada às suas necessidades.</p>
                         <div>
-                            <a href="https://victorbrasileiroo.github.io/WeatherWatch/">Demo</a>
-                            <a href="https://github.com/VictorBrasileiroo/WeatherWatch/">Github</a>
+                            <a href="https://victorbrasileiroo.github.io/FitFinder/">Demo</a>
+                            <a href="https://github.com/VictorBrasileiroo/FitFinder/">Github</a>
                             <div className="tecs-projects">
                                 <div className="card-tec">
-                                    <img src={javascriptIcon} alt="JavaScript" />
+                                    <img src={reactIcon} alt="JavaScript" />
                                 </div>
                                 <div className="card-tec">
-                                    <img src={cssIcon} alt="CSS" />
+                                    <img src={atrevimentoIcon} alt="CSS" />
                                 </div>
                                 <div className="card-tec">
                                     <img src={htmlIcon} alt="HTML" style={{ width: '40px', position: 'relative', left: '2px' }} />
@@ -122,6 +123,32 @@ export function Projects() {
                         <img src={group344} alt="Group 344" />
                     </div>
                 </div>
+
+                <div className="container-proj" data-aos="fade-down-right">
+                    <div className="image-area">
+                        <img src={group343} alt="Group 343" />
+                    </div>
+                    <div className="text-area">
+                        <h2>Weather Watch</h2>
+                        <p>Esta aplicação web permite a verificação das condições climáticas atuais. O projeto é um estudo focado em diversos conceitos e tecnologias, incluindo APIs, HTTP, requisições, promises, AJAX e Axios, entre outros. Desenvolvido exclusivamente para fins educativos, visa proporcionar uma compreensão prática e aplicada dessas ferramentas e técnicas.</p>
+                        <div>
+                            <a href="https://victorbrasileiroo.github.io/WeatherWatch/">Demo</a>
+                            <a href="https://github.com/VictorBrasileiroo/WeatherWatch/">Github</a>
+                            <div className="tecs-projects">
+                                <div className="card-tec">
+                                    <img src={javascriptIcon} alt="JavaScript" />
+                                </div>
+                                <div className="card-tec">
+                                    <img src={cssIcon} alt="CSS" />
+                                </div>
+                                <div className="card-tec">
+                                    <img src={htmlIcon} alt="HTML" style={{ width: '40px', position: 'relative', left: '2px' }} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
         </>
     );

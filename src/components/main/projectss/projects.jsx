@@ -100,10 +100,7 @@ export function Projects() {
                 </div>
 
                 <div className="container-proj" data-aos="fade-down-left">
-                    <div className="image-area">
-                        <img src={group343} alt="Group 343" />
-                    </div>
-                    <div className="text-area">
+                <div className="text-area">
                         <h2>Weather Watch</h2>
                         <p>Esta aplicação web permite a verificação das condições climáticas atuais. O projeto é um estudo focado em diversos conceitos e tecnologias, incluindo APIs, HTTP, requisições, promises, AJAX e Axios, entre outros. Desenvolvido exclusivamente para fins educativos, visa proporcionar uma compreensão prática e aplicada dessas ferramentas e técnicas.</p>
                         <div>
@@ -122,9 +119,15 @@ export function Projects() {
                             </div>
                         </div>
                     </div>
+                    <div className="image-area">
+                        <img src={group343} alt="Group 343" />
+                    </div>
                 </div>
 
                 <div className="container-proj" data-aos="fade-down-right">
+                    <div className="image-area">
+                        <img src={group344} alt="Group 344" />
+                    </div>
                     <div className="text-area">
                         <h2>Login Screen</h2>
                         <p>Este é um projeto de uma tela de login simples e responsiva desenvolvida usando React, Tailwind CSS, Vite e Shadcn. A aplicação foi criada com o objetivo de fornecer uma interface de login elegante e eficiente para autenticação de usuários.</p>
@@ -143,9 +146,6 @@ export function Projects() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="image-area">
-                        <img src={group344} alt="Group 344" />
                     </div>
                 </div>
                 
